@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mobodreamers.prescupload.UploadHome">
+    <item
+        android:id="@+id/action_camera"
+        android:orderInCategory="100"
+        android:title="Upload Using Camera"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_gallery"
+        android:title="Upload Using Gallery"
+        app:showAsAction="never"
+        />
+
+</menu>
